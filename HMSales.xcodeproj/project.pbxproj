@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844874CA1AC1804000558FDC /* HMLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 844874C91AC1804000558FDC /* HMLogo.png */; };
 		84AD3F1B1AA864C1006E1BB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F1A1AA864C1006E1BB3 /* main.m */; };
 		84AD3F1E1AA864C1006E1BB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F1D1AA864C1006E1BB3 /* AppDelegate.m */; };
-		84AD3F211AA864C1006E1BB3 /* HMSales.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F1F1AA864C1006E1BB3 /* HMSales.xcdatamodeld */; };
 		84AD3F241AA864C1006E1BB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F231AA864C1006E1BB3 /* ViewController.m */; };
 		84AD3F271AA864C1006E1BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F251AA864C1006E1BB3 /* Main.storyboard */; };
 		84AD3F291AA864C1006E1BB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F281AA864C1006E1BB3 /* Images.xcassets */; };
 		84AD3F2C1AA864C2006E1BB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F2A1AA864C1006E1BB3 /* LaunchScreen.xib */; };
 		84AD3F381AA864C2006E1BB3 /* HMSalesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F371AA864C2006E1BB3 /* HMSalesTests.m */; };
+		84AD3F4B1AA865BE006E1BB3 /* Confluence.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F411AA865BE006E1BB3 /* Confluence.png */; };
+		84AD3F4D1AA865BE006E1BB3 /* checkBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F431AA865BE006E1BB3 /* checkBox.png */; };
+		84AD3F4E1AA865BE006E1BB3 /* checkBox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F441AA865BE006E1BB3 /* checkBox@2x.png */; };
+		84AD3F4F1AA865BE006E1BB3 /* checkBoxMarked.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F451AA865BE006E1BB3 /* checkBoxMarked.png */; };
+		84AD3F501AA865BE006E1BB3 /* checkBoxMarked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F461AA865BE006E1BB3 /* checkBoxMarked@2x.png */; };
+		84AD3F511AA865BE006E1BB3 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F471AA865BE006E1BB3 /* checked.png */; };
+		84AD3F521AA865BE006E1BB3 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F481AA865BE006E1BB3 /* checked@2x.png */; };
+		84AD3F531AA865BE006E1BB3 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F491AA865BE006E1BB3 /* unchecked.png */; };
+		84AD3F541AA865BE006E1BB3 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AD3F4A1AA865BE006E1BB3 /* unchecked@2x.png */; };
+		84AD3F5B1AA8661C006E1BB3 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F561AA8661C006E1BB3 /* RadioButton.m */; };
+		84AD3F5C1AA8661C006E1BB3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F581AA8661C006E1BB3 /* Person.m */; };
+		84AD3F5D1AA8661C006E1BB3 /* DocumentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F5A1AA8661C006E1BB3 /* DocumentHelper.m */; };
+		84AD3F5F1AA86626006E1BB3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AD3F5E1AA86626006E1BB3 /* MessageUI.framework */; };
+		84AD3F611AA8663C006E1BB3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AD3F601AA8663C006E1BB3 /* CoreData.framework */; };
+		84AD3F631AA86677006E1BB3 /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F621AA86677006E1BB3 /* Model.xcdatamodel */; };
+		84AD3F661AA86A73006E1BB3 /* HMSales.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84AD3F641AA86A73006E1BB3 /* HMSales.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844874C91AC1804000558FDC /* HMLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HMLogo.png; sourceTree = "<group>"; };
 		84AD3F151AA864C1006E1BB3 /* HMSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD3F191AA864C1006E1BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AD3F1A1AA864C1006E1BB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84AD3F1C1AA864C1006E1BB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84AD3F1D1AA864C1006E1BB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84AD3F201AA864C1006E1BB3 /* HMSales.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HMSales.xcdatamodel; sourceTree = "<group>"; };
 		84AD3F221AA864C1006E1BB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84AD3F231AA864C1006E1BB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84AD3F261AA864C1006E1BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +58,25 @@
 		84AD3F311AA864C2006E1BB3 /* HMSalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMSalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD3F361AA864C2006E1BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AD3F371AA864C2006E1BB3 /* HMSalesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMSalesTests.m; sourceTree = "<group>"; };
+		84AD3F411AA865BE006E1BB3 /* Confluence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Confluence.png; sourceTree = "<group>"; };
+		84AD3F431AA865BE006E1BB3 /* checkBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBox.png; sourceTree = "<group>"; };
+		84AD3F441AA865BE006E1BB3 /* checkBox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBox@2x.png"; sourceTree = "<group>"; };
+		84AD3F451AA865BE006E1BB3 /* checkBoxMarked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxMarked.png; sourceTree = "<group>"; };
+		84AD3F461AA865BE006E1BB3 /* checkBoxMarked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkBoxMarked@2x.png"; sourceTree = "<group>"; };
+		84AD3F471AA865BE006E1BB3 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		84AD3F481AA865BE006E1BB3 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
+		84AD3F491AA865BE006E1BB3 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		84AD3F4A1AA865BE006E1BB3 /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked@2x.png"; sourceTree = "<group>"; };
+		84AD3F551AA8661C006E1BB3 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		84AD3F561AA8661C006E1BB3 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		84AD3F571AA8661C006E1BB3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		84AD3F581AA8661C006E1BB3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		84AD3F591AA8661C006E1BB3 /* DocumentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentHelper.h; sourceTree = "<group>"; };
+		84AD3F5A1AA8661C006E1BB3 /* DocumentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentHelper.m; sourceTree = "<group>"; };
+		84AD3F5E1AA86626006E1BB3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		84AD3F601AA8663C006E1BB3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84AD3F621AA86677006E1BB3 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		84AD3F651AA86A73006E1BB3 /* HMSales.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HMSales.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AD3F611AA8663C006E1BB3 /* CoreData.framework in Frameworks */,
+				84AD3F5F1AA86626006E1BB3 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +102,8 @@
 		84AD3F0C1AA864C1006E1BB3 = {
 			isa = PBXGroup;
 			children = (
+				84AD3F601AA8663C006E1BB3 /* CoreData.framework */,
+				84AD3F5E1AA86626006E1BB3 /* MessageUI.framework */,
 				84AD3F171AA864C1006E1BB3 /* HMSales */,
 				84AD3F341AA864C2006E1BB3 /* HMSalesTests */,
 				84AD3F161AA864C1006E1BB3 /* Products */,
@@ -83,6 +122,14 @@
 		84AD3F171AA864C1006E1BB3 /* HMSales */ = {
 			isa = PBXGroup;
 			children = (
+				84AD3F641AA86A73006E1BB3 /* HMSales.xcdatamodeld */,
+				84AD3F621AA86677006E1BB3 /* Model.xcdatamodel */,
+				84AD3F551AA8661C006E1BB3 /* RadioButton.h */,
+				84AD3F561AA8661C006E1BB3 /* RadioButton.m */,
+				84AD3F571AA8661C006E1BB3 /* Person.h */,
+				84AD3F581AA8661C006E1BB3 /* Person.m */,
+				84AD3F591AA8661C006E1BB3 /* DocumentHelper.h */,
+				84AD3F5A1AA8661C006E1BB3 /* DocumentHelper.m */,
 				84AD3F1C1AA864C1006E1BB3 /* AppDelegate.h */,
 				84AD3F1D1AA864C1006E1BB3 /* AppDelegate.m */,
 				84AD3F221AA864C1006E1BB3 /* ViewController.h */,
@@ -90,7 +137,6 @@
 				84AD3F251AA864C1006E1BB3 /* Main.storyboard */,
 				84AD3F281AA864C1006E1BB3 /* Images.xcassets */,
 				84AD3F2A1AA864C1006E1BB3 /* LaunchScreen.xib */,
-				84AD3F1F1AA864C1006E1BB3 /* HMSales.xcdatamodeld */,
 				84AD3F181AA864C1006E1BB3 /* Supporting Files */,
 			);
 			path = HMSales;
@@ -99,6 +145,16 @@
 		84AD3F181AA864C1006E1BB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84AD3F411AA865BE006E1BB3 /* Confluence.png */,
+				844874C91AC1804000558FDC /* HMLogo.png */,
+				84AD3F431AA865BE006E1BB3 /* checkBox.png */,
+				84AD3F441AA865BE006E1BB3 /* checkBox@2x.png */,
+				84AD3F451AA865BE006E1BB3 /* checkBoxMarked.png */,
+				84AD3F461AA865BE006E1BB3 /* checkBoxMarked@2x.png */,
+				84AD3F471AA865BE006E1BB3 /* checked.png */,
+				84AD3F481AA865BE006E1BB3 /* checked@2x.png */,
+				84AD3F491AA865BE006E1BB3 /* unchecked.png */,
+				84AD3F4A1AA865BE006E1BB3 /* unchecked@2x.png */,
 				84AD3F191AA864C1006E1BB3 /* Info.plist */,
 				84AD3F1A1AA864C1006E1BB3 /* main.m */,
 			);
@@ -202,9 +258,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AD3F4F1AA865BE006E1BB3 /* checkBoxMarked.png in Resources */,
 				84AD3F271AA864C1006E1BB3 /* Main.storyboard in Resources */,
+				84AD3F541AA865BE006E1BB3 /* unchecked@2x.png in Resources */,
+				84AD3F4D1AA865BE006E1BB3 /* checkBox.png in Resources */,
+				844874CA1AC1804000558FDC /* HMLogo.png in Resources */,
 				84AD3F2C1AA864C2006E1BB3 /* LaunchScreen.xib in Resources */,
+				84AD3F521AA865BE006E1BB3 /* checked@2x.png in Resources */,
+				84AD3F511AA865BE006E1BB3 /* checked.png in Resources */,
 				84AD3F291AA864C1006E1BB3 /* Images.xcassets in Resources */,
+				84AD3F501AA865BE006E1BB3 /* checkBoxMarked@2x.png in Resources */,
+				84AD3F4E1AA865BE006E1BB3 /* checkBox@2x.png in Resources */,
+				84AD3F531AA865BE006E1BB3 /* unchecked.png in Resources */,
+				84AD3F4B1AA865BE006E1BB3 /* Confluence.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84AD3F211AA864C1006E1BB3 /* HMSales.xcdatamodeld in Sources */,
+				84AD3F5C1AA8661C006E1BB3 /* Person.m in Sources */,
+				84AD3F661AA86A73006E1BB3 /* HMSales.xcdatamodeld in Sources */,
+				84AD3F5B1AA8661C006E1BB3 /* RadioButton.m in Sources */,
+				84AD3F5D1AA8661C006E1BB3 /* DocumentHelper.m in Sources */,
 				84AD3F1E1AA864C1006E1BB3 /* AppDelegate.m in Sources */,
 				84AD3F241AA864C1006E1BB3 /* ViewController.m in Sources */,
+				84AD3F631AA86677006E1BB3 /* Model.xcdatamodel in Sources */,
 				84AD3F1B1AA864C1006E1BB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Happiest Minds Technologies Private Limited";
 				INFOPLIST_FILE = HMSales/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "370b07da-0ea8-4609-9585-8f5f623437c4";
 			};
 			name = Debug;
 		};
@@ -359,9 +431,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Happiest Minds Technologies Private Limited";
 				INFOPLIST_FILE = HMSales/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "370b07da-0ea8-4609-9585-8f5f623437c4";
 			};
 			name = Release;
 		};
@@ -418,6 +492,7 @@
 				84AD3F3D1AA864C2006E1BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AD3F3E1AA864C2006E1BB3 /* Build configuration list for PBXNativeTarget "HMSalesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,16 +501,17 @@
 				84AD3F401AA864C2006E1BB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		84AD3F1F1AA864C1006E1BB3 /* HMSales.xcdatamodeld */ = {
+		84AD3F641AA86A73006E1BB3 /* HMSales.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				84AD3F201AA864C1006E1BB3 /* HMSales.xcdatamodel */,
+				84AD3F651AA86A73006E1BB3 /* HMSales.xcdatamodel */,
 			);
-			currentVersion = 84AD3F201AA864C1006E1BB3 /* HMSales.xcdatamodel */;
+			currentVersion = 84AD3F651AA86A73006E1BB3 /* HMSales.xcdatamodel */;
 			path = HMSales.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

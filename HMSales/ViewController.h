@@ -7,9 +7,34 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RadioButton.h"
+#import <MessageUI/MessageUI.h>
 
-@interface ViewController : UIViewController
+@class Person;
 
+@interface ViewController : UIViewController<UITextFieldDelegate, MFMailComposeViewControllerDelegate, UIDocumentInteractionControllerDelegate> {
+    NSString *_imagePath;
+    UIImage *_img;
+}
+
+@property (nonatomic, weak) IBOutlet UITableView *contactTableView;
+@property NSManagedObjectContext *managedObjectContext;
+
+-(IBAction)beginImageInsertion:(id)sender;
+
+@property (nonatomic, strong) IBOutlet RadioButton* radioButton;
+@property (nonatomic, strong) IBOutlet UILabel* statusLabel;
+-(IBAction)onRadioBtn:(id)sender;
 
 @end
 
+@interface DetailTableViewCell : UITableViewCell  {
+    BOOL swipedToDelete;
+    UITableView*typeTable;
+}
+
+@property (nonatomic, strong) NSString*cellType;
+@property (nonatomic, strong) id delegate;
+@property (nonatomic, strong) IBOutlet UITextField *textFieldInput;
+
+@end
